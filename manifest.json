@@ -1,0 +1,26 @@
+{
+  "author": "igorlogius",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "commands": {
+    "toggle-audio": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+M"
+      }
+    }
+  },
+  "browser_action": {
+  },
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "Toggle Tabs Audio",
+  "permissions": [
+    "notifications",
+    "tabs"
+  ],
+  "version": "1.0.0"
+}
