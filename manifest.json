@@ -6,13 +6,17 @@
     ]
   },
   "commands": {
-    "toggle-audio": {
-      "suggested_key": {
-        "default": "Ctrl+Alt+M"
-      }
-    }
+    "Assign Group 1": {"suggested_key": { "default": "F1" } },
+    "Toggle Group 1": {"suggested_key": { "default": "F2" } },
+    "Assign Group 2": {"suggested_key": { "default": "F3" } },
+    "Toggle Group 2": {"suggested_key": { "default": "F4" } },
+    "Assign Group 3": {"suggested_key": { "default": "F5" } },
+    "Toggle Group 3": {"suggested_key": { "default": "F6" } },
+    "Assign Group 4": {"suggested_key": { "default": "F7" } },
+    "Toggle Group 4": {"suggested_key": { "default": "F8" } }
   },
   "browser_action": {
+    "default_title": "Remove Audio Groups"
   },
   "icons": {
   },
@@ -22,5 +26,5 @@
     "notifications",
     "tabs"
   ],
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
